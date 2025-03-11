@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    width: 900px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Left Side - Login Box */
+.login-box {
+    width: 50%;
+    padding: 40px;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+/* Typography */
+h2 {
+    color: #006400;
+    margin-bottom: 10px;
+}
+
+p {
+    color: gray;
+    font-size: 14px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #006400;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Options Section */
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.options a {
+    text-decoration: none;
+    color: #006400;
+}
+
+/* Buttons */
+.signin-btn {
+    background: #006400;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.signin-btn:hover {
+    background: #004d00;
+}
+
+.google-signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.google-signin img {
+    width: 18px;
+    margin-right: 8px;
+}
+
+/* Signup Link */
+.signup-text {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.signup-text a {
+    text-decoration: none;
+    color: #006400;
+    font-weight: bold;
+}
+
+/* Right Side - Illustration */
+.illustration {
+    width: 50%;
+    background: #006400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.illustration img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
