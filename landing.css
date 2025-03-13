@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0fff0; /* Light Green Background */
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #006400; /* Dark Green */
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.subscribe-section {
+    width: 50%;
+}
+
+.subscribe-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.subscribe-section span {
+    color: #008000; /* Green Text */
+    font-weight: bold;
+}
+
+.subscribe-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #008000;
+    border-radius: 5px;
+}
+
+button {
+    width: 85%;
+    padding: 10px;
+    background: #008000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #006400;
+}
+
+/* Website URL */
+.website-url {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #008000;
+}
+
+/* Image Section */
+.image-section {
+    width: 50%;
+    text-align: center;
+}
+
+.image-section img {
+    width: 80%;
+    border-radius: 10px;
+}
