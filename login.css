@@ -8,21 +8,21 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
+    /* background-color: #f4f4f4; */
 }
 
 /* Main Container */
 .container {
     display: flex;
-    width: 900px;
+    width: 1350px;
     background: white;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* Left Side - Login Box */
@@ -33,18 +33,19 @@ body {
 
 /* Logo */
 .logo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+    padding-bottom: 50px;
+    /* padding-right: 150px; */
+    margin: top 10px;
+    margin: left 10px;
 }
 
 .logo img {
-    width: 150px;
+    width: 80px;
 }
 
 /* Typography */
 h2 {
-    color: #006400;
+    color: #77b800; 
     margin-bottom: 10px;
 }
 
@@ -62,7 +63,7 @@ label {
     font-size: 14px;
     margin-top: 10px;
     font-weight: bold;
-    color: #006400;
+    color: #77b800
 }
 
 input {
@@ -80,15 +81,19 @@ input {
     margin: 10px 0;
     font-size: 12px;
 }
-
-.options a {
-    text-decoration: none;
-    color: #006400;
+.remeber-me{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Forgot-Password{
+    color: #77b800;
+    font-weight: bold;
 }
 
 /* Buttons */
 .signin-btn {
-    background: #006400;
+    background: #77b800;
     color: white;
     padding: 10px;
     border: none;
@@ -99,7 +104,12 @@ input {
 }
 
 .signin-btn:hover {
-    background: #004d00;
+    background: #77b800;
+}
+.signin-btn a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .google-signin {
@@ -115,7 +125,7 @@ input {
 }
 
 .google-signin img {
-    width: 18px;
+    width: 30px;
     margin-right: 8px;
 }
 
@@ -128,14 +138,14 @@ input {
 
 .signup-text a {
     text-decoration: none;
-    color: #006400;
+    color: #77b800;
     font-weight: bold;
 }
 
 /* Right Side - Illustration */
 .illustration {
     width: 50%;
-    background: #006400;
+    background: #77b800;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,5 +155,5 @@ input {
 .illustration img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }

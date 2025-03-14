@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f0fff0; /* Light Green Background */
-    color: #333;
+    background: white;
+    color: white;
 }
 
 /* Header */
@@ -13,13 +13,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background: #006400; /* Dark Green */
+    background: white;
     color: white;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
+    color: #77b800;
 }
 
 nav ul {
@@ -33,7 +34,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #77b800; 
     font-weight: bold;
 }
 
@@ -47,21 +48,22 @@ nav ul li a {
 
 .subscribe-section {
     width: 50%;
+    color:#77b800
 }
 
 .subscribe-section h1 {
-    font-size: 36px;
+    font-size: 28px;
     margin-bottom: 10px;
 }
 
 .subscribe-section span {
-    color: #008000; /* Green Text */
+    color: #77b800; 
     font-weight: bold;
 }
 
 .subscribe-section p {
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 15px
+    /* margin-bottom: 20px; */
 }
 
 /* Form */
@@ -71,33 +73,25 @@ form {
 }
 
 input {
-    width: 80%;
-    padding: 10px;
+    width: 45%;
+    padding: 5px;
     margin: 10px 0;
-    border: 2px solid #008000;
-    border-radius: 5px;
+    border: 2px solid #77b800; 
+    border-radius: 12px;
 }
 
 button {
-    width: 85%;
-    padding: 10px;
-    background: #008000;
+    width: 20%;
+    padding: 5px;
+    background: #77b800; 
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
-    font-size: 16px;
 }
 
 button:hover {
-    background: #006400;
-}
-
-/* Website URL */
-.website-url {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #008000;
+    background: #77b800; 
 }
 
 /* Image Section */
